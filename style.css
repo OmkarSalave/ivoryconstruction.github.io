@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    background-image: url(images/bannerorg.jpg);
+    background-size: cover;
+    position: relative;
+    height: 52vw;
+    width: 100vw;
+}
+.img-why-choose{
+    width: 540px;
+    height: 565px;
+}
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(252, 252, 252);
+    overflow-x: hidden !important;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .menu-bar{
+      color: rgb(177, 151, 87);
+      font-size: 50px !important;
+  }
+  .hr-menu{
+      margin-left: 20px;
+  }
+  .main-text{
+      color: rgb(252, 194, 127);
+      font-size: 75px;
+      position: relative;
+      top: 30%;
+      left: 60%;
+      font-weight:600;
+  }
+  .s-media{
+      margin-top: 30px;
+    font-size:26px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .contact-n{
+      color: rgb(245, 218, 149);
+      font-size: 25px;
+      margin-left: 15px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f8e67e;
+    display: block;
+    transition: 0.3s;
+  }
+  .animation-who{
+    animation-name: leftanimate;
+    animation-timing-function: ease-out;
+
+  }
+.our-supermacy{
+    font-family:Helvetica;
+}
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  .scroll{
+      position: relative;
+      justify-content: center;
+  }
+  .scroll-btn-web{
+      position: absolute;
+      bottom: 5%;
+      left: 48%;
+      color: rgb(105, 82, 54);
+      text-align: center;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 450px;
+    height: 800px;
+  }
+  .angle-shape{
+      font-size: 20px;
+      margin-top: 5px;
+      border: 1px solid rgb(105, 82, 54);
+      border-radius: 50%;
+      padding: 8px;
+      
+  }
+  .who-we{
+      color: rgb(158, 135, 107);
+  }
+  .who-we-title{
+
+      color: rgb(105, 71, 52);
+  }
+  .para-who-we{
+      font-size: 20px;
+      color: rgb(56, 56, 56);
+      font-family: Helvetica ,sans-serif;
+  }
+ .link-para-who{
+      color: rgb(46, 12, 12);
+      background-color: burlywood;
+      width: 400px;
+      padding: 5px;
+      font-size: 18px;
+  }
+  .link-para-our{
+    color: rgb(46, 12, 12);
+    background-color: burlywood;
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+}
+.link-para-who:hover{
+    color: burlywood;
+    background-color: rgb(37, 22, 17);
+
+}
+.link-para-our:hover{
+    color: burlywood;
+    background-color: rgb(37, 22, 17);
+
+}
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 450px) {
+    .bg-img{
+        height: 700px;
+    }
+    #main{
+        background-color: rgba(0, 0, 0, 0.753);
+        height:700px !important;
+      }
+      .scroll{
+        position:absolute;
+        bottom: 10%;
+        left: 22%;
+    }
+    .who-we{
+        font-size: 15px;
+    }
+    .who-we-title{
+        font-size: 22px;
+    }
+    .para-who-we{
+        font-size: 16px;
+    }
+  }
+  @media screen and (max-width:850px) {
+    .bg-img{
+        width:850px;
+    }
+    #main{
+        transition: margin-left .5s;
+        padding: 16px;
+        background-color: rgba(0, 0, 0, 0.753);
+        width: 850px;
+        height:450px;
+      }
+      .logo{
+          width: 150px;
+      }
+      .main-text{
+        color: rgb(252, 194, 127);
+        font-size: 35px;
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+    
+  }
